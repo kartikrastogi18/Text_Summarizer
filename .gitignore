@@ -1,0 +1,69 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual Environment
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Environment Variables
+.env
+
+# Hugging Face Cache
+.cache/
+huggingface/
+hf_cache/
+
+# Model Checkpoints
+checkpoints/
+models/
+saved_model/
+*.bin
+*.pt
+*.pth
+*.ckpt
+
+# Training Logs
+logs/
+runs/
+events.out.tfevents*
+
+# Dataset (ignore if large)
+data/
+datasets/
+*.csv
+*.json
+*.zip
+
+# Generated Outputs
+outputs/
+predictions/
+results/
+
+# TensorBoard
+tensorboard/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Google Colab
+/content/
+
+# Miscellaneous
+*.log
+*.tmp
+saved_summary_model/
